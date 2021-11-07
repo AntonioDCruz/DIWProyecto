@@ -5,168 +5,128 @@
     <title>Inicio</title>
     <meta charset="utf-8">
     <meta name="title" content="Inicio">
-    <meta name="description" content="Página de inicio">   
-    <link rel="stylesheet" href="./assets/css/styles.css"> 
+    <meta name="description" content="Página de inicio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">   
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/Index_styles.css"> 
+    <link rel="stylesheet" type="text/css" media="print" href="./assets/css/imprimir.css" />
   </head>
   <body>
     <header>
-       <!--Menu-->
-    <nav class="menu">
-      <ul id="menu">
-        <li><a href="index.html"><img src="./assets/images/Logo.PNG" width="50" alt="Logo zetecccars"></a></li>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-    </header>
+      <!--Menu-->
+      <nav >
+        <a class="imgNav" href="index.html"><img src="./assets/images/Logo.PNG" width="50" alt="Logo zetecccars"></a>
+        <ul id="menu">
+          <li id="listMenu"><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+   </header>
    
+    <div class="nav">
 
+    </div>
     <!--Area Hero-->
-    <div class="Area-Hero">
-      <div class="Area-Hero-texto">
+    <div class="areaHero">
+      <div class="areaHero-texto">
         <h1>Mercedes</h1>
-        <img src="assets/images/Mercedes_AreaHero.png" alt="Nuevo modelo Mercedes">
         <p>Nuevo Modelo</p>
-        <button>Infórmate aquí</button>
+        <button class="areaHero-button">Infórmate aquí</button>
       </div>
     </div> 
 
-    <!--Ventajas-->
-    <div class="Ventajas">
-        <h3>Ventajas</h3>
-        <ol type="I">
-          <li>Nunc sollicitudin nisl vel nisl convallis tristique.</li>
+
+    <div class="ventajas">
+      <h2>Ventajas</h2>
+      <div class="ventajas_text">
+        <ol>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</li>
           <li>Etiam sed ex accumsan, fermentum eros in, rutrum nulla. Mauris imperdiet augue vel dui viverra tincidunt. </li>
-          <li>Donec ultricies lacinia molestie.</li>
+          <li>Nunc sollicitudin nisl vel nisl convallis tristique, donec ultricies lacinia molestie.</li>
           <li>Phasellus pulvinar, enim hendrerit pulvinar iaculis, orci ligula volutpat metus, vel scelerisque mi massa non tortor. </li>
         </ol>
-    </div> 
+        <button>Ver más</button>
+      </div>
+    </div>
 
 
     <!--Ejemplos-->
+    <h2>Marcas</h2>
    <div class="Ejemplos">
-    <h3>Ejemplos</h3>
-    <table>
-      <caption>Marcas</caption>
-      <tr>
-        <th><a href="#">Mercedes</a></th>
-        <th><a href="#">Audi</a></th>
-        <th><a href="#">Tesla</a></th>
-        <th><a href="#">BMW</a></th>
-        <th><a href="#">Kia</a></th>
-        <th><a href="#">Volkswagen</a></th>
-        <th><a href="#">Porsche</a></th>
-        <th><a href="#">MINI</a></th>
-      </tr>
-      <tr>
-        <td>
-          <h4 style="text-align: center;">Mercedes Brabus</h4>
-          <img src="assets/images/MercedesBrabus.jpg" width="180" alt="Mercedes Brabus">
-        </td>
-        <td>
-          <h4 style="text-align: center;">Audi R8</h4>
-          <img src="assets/images/AudiR8.jpg" width="250" alt="Audi R8">
-        </td>        
-        <td>
-          <h4 style="text-align: center;">Tesla Model 3</h4>
-          <img src="assets/images/TeslaModel3.jpg" width="250" alt="Tesla Model 3">
-        </td> 
-        <td>
-          <h4 style="text-align: center;">BMW X1</h4>
-          <img src="assets/images/BMW_X1.jpg" width="250" alt="BMW X1">
-        </td>   
-        <td>
-          <h4 style="text-align: center;">KIA e-NIRO</h4>
-          <img src="assets/images/KIAe-NIRO.jpg" width="240" alt="KIA e-NIRO">
-        </td>        
-        <td>
-          <h4 style="text-align: center;">Volkswagen Golf R</h4>
-          <img src="assets/images/VolkswagenGolfR.jpg" width="250" alt="Volkswagen Golf R">
-        </td>
-        <td>
-          <h4 style="text-align: center;">Porsche Taycan Cross</h4>
-          <img src="assets/images/PorscheTaycanCross.jpg" width="200" alt="Porsche Taycan Cross">
-        </td>
-        <td>
-          <h4 style="text-align: center;">MINI Countryman PHEV</h4>
-          <img src="assets/images/MINICountrymanPHEV.jpg" width="245" alt="MINI Countryman PHEV">
-        </td>   
-      </tr>
-      <tr>
-        <td>
-          <ul> 
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-          </ul>
-        </td>
-        <td>
-          <ul> 
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-          </ul>
-        </td>
-        <td>
-          <ul> 
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-          </ul>
-        </td>
-        <td>
-          <ul> 
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-          </ul>
-        </td>
-        <td>
-          <ul> 
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
-          </ul>
-        </td>
-      </tr>
 
-    </table>
- </div>
+      <div class="mercedes">
+        <div class="titulo">
+          <h3>Mercedes Brabus</h3>
+        </div>
+        <div class="texto">
+          <ul> 
+            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+            <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+          </ul>
+        </div>
+      </div>
+
+      
+
+    <div class="audi">
+      <div class="titulo">
+        <h3>Audi R8</h3>
+      </div>
+      <div class="texto">
+        <ul> 
+          <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+          <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+          <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+        </ul>
+      </div>
+    </div>
+   </div>
 
 
-    <main></main>
+  <div class="Ejemplos2"> 
+    <div class="tesla">
+      <div class="titulo">
+        <h3>Tesla Model 3</h3>
+      </div>
+      <div class="texto">
+        <ul> 
+          <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+          <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+          <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bmw">
+      <div class="titulo">
+        <h3>BMW X1</h3>
+      </div>
+      <div class="texto">
+        <ul> 
+          <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+          <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+          <li>Aenean elementum risus mattis, pulvinar leo vel.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <div class="icono">
+      <a href="https://www.whatsapp.com/?lang=es" ><img src="./assets/images/whatsapp.png" width="30" alt="Logo Whatsapp"></a>
+    </div>
+
     <footer>
       <p> © ZetecCars2021</p>
-      <p><a href="#">Política de privacidad y cookies</a></p>
+      <p><a href="https://www.aepd.es/sites/default/files/2020-07/guia-cookies.pdf">Política de privacidad y cookies</a></p>
       <p>Antonio David Cruz Alarcón</p>
-      <a href="https://twitter.com/"><img src="./assets/images/logotipo-de-twitter-sobre-fondo-negro.png" width="30" alt="Logo Twitter"></a>
-      <a href="https://www.instagram.com/?hl=es"><img src="./assets/images/logotipo-de-instagram.png" width="30" alt="Logo Instagram"></a>
-      <a href="https://www.google.com/intl/es/gmail/about/"><img src="./assets/images/logotipo-de-gmail.png" width="30" alt="Logo Gmail"></a>
-      <a href="https://es-es.facebook.com/"><img src="./assets/images/logo-de-facebook.png" width="30" alt="Logo Facebook"></a>
-      <a href="https://www.whatsapp.com/?lang=es"><img src="./assets/images/whatsapp.png" width="30" alt="Logo Whatsapp"></a>
+      <div class="iconos">
+        <a href="https://twitter.com/"><img src="./assets/images/logotipo-de-twitter-sobre-fondo-negro.png" width="30" alt="Logo Twitter"></a>
+        <a href="https://www.instagram.com/?hl=es"><img src="./assets/images/logotipo-de-instagram.png" width="30" alt="Logo Instagram"></a>
+        <a href="https://www.google.com/intl/es/gmail/about/"><img src="./assets/images/logotipo-de-gmail.png" width="30" alt="Logo Gmail"></a>
+        <a href="https://es-es.facebook.com/"><img src="./assets/images/logo-de-facebook.png" width="30" alt="Logo Facebook"></a>
+      </div>  
     </footer>
   </body>
 </html>

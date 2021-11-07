@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+  background-color:#E2E2E2;
+}
+
+/*menu*/
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;  
+    background-color: #000000;
+    z-index: 4;
+    box-shadow: 10px 10px 15px 2px rgba(0,0,0,0.47);
+  }
+
+nav{
+    max-width: 1824px;
+    margin: 0 auto;
+    position: relative;
+  
+   }
+  header img{
+    padding: 18px 10px;
+    margin-top: -10px;
+    margin-left: 0px;
+    float: left;
+    position: fixed;
+  }
+  nav ul{
+    float: right;
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 650px;
+  }
+  nav li{
+    list-style-type: none;
+    padding: 0px;
+    display: inline;
+  
+  }
+  nav li a{
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+    color: #ffffff;
+  }
+  
+  .nav{
+      height: 70px;
+  }
+
+    
+  /*Div Servicios*/
+
+  section a{
+    text-decoration: none;
+  }
+
+  h2{
+      text-align:center;
+      color: #000000;
+      margin-top: 50px;
+      background-color: #ffffff;
+      border-radius: 15px;
+      margin: 600px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      text-shadow: 4px 4px 2px #E2E2E2;
+  }
+
+
+  #deportivos {
+    margin: 20px 250px;
+    padding: 20px 20px;
+    background: radial-gradient(#000, #ccc);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #deportivos #deportivosText{
+    margin: 0px 25px;
+    color: #ffffff;
+  }
+
+
+  #electricos {
+    margin: 20px 250px;
+    padding: 20px 20px;
+    background: linear-gradient(to top, #000, #ccc);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #electricos #electricosText{
+    margin: 0px 25px;
+    color: #ffffff;
+  }
+
+
+  #familiares {
+    margin: 20px 250px;
+    padding: 20px 20px;
+    background: radial-gradient(#000, #ccc);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #familiares #familiaresText{
+    margin: 0px 25px;
+    color: #ffffff;
+  }
+
+
+  /*Tabla*/
+
+.Modelos{
+    margin-top: 50px;
+}
+  
+table {
+    caption-side: bottom;
+    table-layout: auto; 
+    width: 100%;
+    border:gold 10px solid;
+    border-collapse: collapse;
+    margin: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+table tr:nth-child(odd){ background-color: #000000; color: #ffffff;}
+table tr:nth-child(even){ background-color: #ffffff; color: #000000;}
+table tr:first-child{background-color: gold;}
+
+table a{
+    color: #ffffff;
+    font-size: 2em;
+}
+
+h4{
+    font-size: 1.5em;
+}
+
+caption{
+    font-size: 2em;
+    background-color: #000000;
+}
+
+ li{
+    list-style-type: none;
+}
+
+/*Icono whatsapp*/
+.icono{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+  }
+
+
+
+
+  /*FOOTER*/
+
+footer {
+  padding: 50px 50px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+footer p{
+  margin: 25px;
+}
+
+footer p a{
+  color: #000000;
+  text-decoration: none;
+}
+
+footer p [href$=".pdf"]::after{
+  content: url("../images/pdf.png");
+}

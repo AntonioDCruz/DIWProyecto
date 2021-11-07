@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Vollkorn", "Crimson Pro", "Frank Ruhl Libre";
+}
+
+body{
+background-color:#E2E2E2;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 70px;  
+  background-color: #000000;
+  z-index: 4;
+  box-shadow: 10px 10px 15px 2px rgba(0,0,0,0.47);
+}
+
+nav{
+  max-width: 1824px;
+  margin: 0 auto;
+  position: relative;
+
+ }
+header img{
+  padding: 18px 10px;
+  margin-top: -10px;
+  margin-left: 0px;
+  float: left;
+  position: fixed;
+}
+nav ul{
+  float: right;
+  list-style: none;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 650px;
+}
+nav li{
+  list-style-type: none;
+  padding: 0px;
+  display: inline;
+
+}
+nav li a{
+  font-size: 1em;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 15px 10px;
+  color: #ffffff;
+}
+
+.nav{
+    height: 70px;
+}
+/*Aside*/
+
+aside {
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding-right: 15px;
+  margin-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  font-style: Arial;
+  background-color:#ffffff;
+  border-radius: 5%;
+  border-color: #000000;
+}
+
+aside ul{
+  list-style-image: url("../images/giphy.gif") ;
+  margin-left: 25px;
+}
+
+
+aside li a{
+  color: #000000;
+  text-decoration: none;
+}
+
+/*Section*/
+
+section{
+  width: 1200px;
+  position: static;
+}
+
+/*Div*/
+
+
+
+ /*Icono Whatsapp*/
+
+ .icono{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+  padding: 50px 50px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+footer p{
+  margin: 25px;
+}
+
+footer p a{
+  color: #000000;
+  text-decoration: none;
+}
+
+footer p [href$=".pdf"]::after{
+  content: url("../images/pdf.png");
+}
+
+
+.click:after {
+  content:"En pantalla grande";
+}
+/*@media screen and (min-width: 1024px) {
+  .click:after {
+      content:"Ordenador";
+  }
+
+  
+  nav{
+    margin-left: 42px;
+     display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px;
+  }
+
+  header img{
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+  .icono{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+  }
+
+  /*Aside
+
+aside {
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding-right: 15px;
+  margin-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  font-style: Arial;
+  background-color:#ffffff;
+  border-radius: 5%;
+  border-color: #000000;
+}
+
+aside ul{
+  list-style-image: url("../images/giphy.gif") ;
+  margin-left: 25px;
+}
+
+
+aside li a{
+  color: #000000;
+  text-decoration: none;
+}
+
+  
+
+ 
+}*/
+
+@media screen and (min-device-width : 768px) and (max-width: 1024px) {
+  .click:after {
+    content:"Tablet"; 
+  }
+
+  body{
+    margin-left: 20px;
+  }
+  
+  nav{
+    margin-left: -20px;
+     display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px;
+  }
+
+  nav ul{
+    margin-left: 0px;
+  }
+
+  header img{
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+  header img{
+    display: inline-block;
+  }
+
+  /*Aside*/
+
+aside {
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding-right: 15px;
+  margin-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  font-style: Arial;
+  background-color:#ffffff;
+  border-radius: 5%;
+  border-color: #000000;
+}
+
+aside ul{
+  list-style-image: url("../images/giphy.gif") ;
+  margin-left: 25px;
+}
+
+
+aside li a{
+  color: #000000;
+  text-decoration: none;
+}
+
+
+/**/
+  section{
+    width: 700px;
+    position: static;
+    display: block;
+  }
+
+  
+
+  .Act6{
+    width: 700px;
+    position: static;
+    display: block;
+  }
+
+  .Act6_1{
+    width: 700px;
+    position: static;
+    display: block;
+  }
+
+  .Act6_2{
+    width: 700px;
+    position: static;
+    display: block;
+  }
+
+  .VideoYT{
+    width: 700px;
+    position: static;
+    display: block;
+  }
+
+  .Act8_1{
+    width: 700px;
+    position: static;
+    display: block;
+  }
+
+  .Act8_2{
+    width: 700px;
+    position: static;
+    display: block;
+  }
+
+  .Act8_3{
+    width: 700px;
+    position: static;
+    display: block;
+  }
+
+  .Act8_4{
+    width: 700px;
+    position: static;
+    display: block;
+  }
+  footer{
+    width: 700px;
+    position: static;
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .click:after {
+      content:"Movil";
+  }
+  body{
+    margin-left: 20px;
+  }
+  nav{
+    margin-left: -20px;
+     display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px;
+  }
+
+  nav ul{
+    margin-left: 0px;
+  }
+
+  header img{
+    display: inline-block;
+    margin-left: 0px;
+  }
+  aside{
+    width: 200px;
+    display: block;
+    float: none;
+  }
+
+  section{
+    width: 400px;
+    position: static;
+    display: block;
+  }
+
+  .Act6{
+    width: 400px;
+    position: static;
+    display: block;
+  }
+
+  .Act6_1{
+    width: 400px;
+    position: static;
+    display: block;
+  }
+
+  .Act6_2{
+    width: 400px;
+    position: static;
+    display: block;
+  }
+
+  .VideoYT{
+    width: 400px;
+    position: static;
+    display: block;
+  }
+
+  .Act8_1{
+    width: 400px;
+    position: static;
+    display: block;
+  }
+
+  .Act8_2{
+    width: 400px;
+    position: static;
+    display: block;
+  }
+
+  .Act8_3{
+    width: 400px;
+    position: static;
+    display: block;
+  }
+
+  .Act8_4{
+    width: 400px;
+    position: static;
+    display: block;
+  }
+  footer{
+    width: 400px;
+    position: static;
+  }
+
+
+
+}

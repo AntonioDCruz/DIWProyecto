@@ -1,0 +1,379 @@
+@import url('https://fonts.google.com/specimen/Vollkorn#standard-styles'); 
+@import url('https://fonts.google.com/specimen/Crimson+Pro#standard-styles'); 
+@import url('https://fonts.google.com/specimen/Frank+Ruhl+Libre#standard-styles'); 
+ 
+ *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+/*Menu*/
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 70px;  
+  background-color: #000000;
+  z-index: 4;
+  box-shadow: 10px 10px 15px 2px rgba(0,0,0,0.47);
+
+}
+nav{
+  max-width: 1824px;
+  margin: 0 auto;
+  position: relative;
+ }
+header img{
+  padding: 18px 10px;
+  margin-top: -10px;
+  margin-left: 0px;
+  float: left;
+  position: fixed;
+}
+nav ul{
+  float: right;
+  list-style: none;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 650px;
+}
+nav li{
+  list-style-type: none;
+  padding: 0px;
+  display: inline;
+
+}
+nav li a{
+  font-size: 1em;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 15px 10px;
+  color: #ffffff;
+}
+
+.nav{
+    height: 70px;
+}
+
+/*Icono whatsapp*/
+.icono{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+  z-index: 2;
+}
+
+/*AreaHero*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color:#E2E2E2;
+}
+
+.areaHero {
+  margin-top: -70px;
+  z-index: 1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Mercedes_AreaHero.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: relative;
+}
+
+.areaHero-texto {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.areaHero-texto h1{
+  padding-bottom: 20px;
+  font-size: 3em;
+}
+
+.areaHero-texto p{
+  padding-bottom: 20px;
+  font-size: 1.3em;
+}
+
+.areaHero-button{
+  padding: 15px 40px;
+  border-radius: 15px;
+  background-color: #000000;
+  font-size: 1em;
+  color: #ffffff;
+  -webkit-transition: background 1s linear;
+  transition: background 0.5s linear;
+}
+
+.areaHero-button:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+/*Div Marcas*/
+
+h2{
+  background-color: #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  margin: 10px 600px;
+  padding: 15px;
+}
+
+.Ejemplos{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 10px 20px;
+}
+
+.Ejemplos2{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 20px 20px;
+}
+
+.mercedes{
+  color: #ffffff;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 150px 50px;
+  margin: 10px 20px;
+  border-radius: 0px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/MercedesBrabus.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: relative;
+  font-size: 0em;
+}
+
+.mercedes .titulo{
+  position: absolute;
+  top: 30px;
+  left: 275px;
+}
+
+.mercedes .texto{
+  position: relative;
+  text-align: center;
+  left: 100px;
+}
+
+.mercedes .texto li{
+  list-style-type: none;
+  padding: 10px;
+}
+
+.mercedes:hover{
+  border-radius: 20px;
+  font-size: 1.2em;
+}
+/**************************************/
+.tesla{
+  color: #ffffff;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 150px 50px;
+  margin: 10px 20px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/TeslaModel3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: relative;
+  font-size: 0em;
+}
+
+.tesla .titulo{
+  position: absolute;
+  top: 30px;
+  left: 290px;
+}
+
+.tesla .texto{
+  position: relative;
+  text-align: center;
+  left: 100px;
+}
+
+.tesla .texto li{
+  list-style-type: none;
+  padding: 10px;
+}
+
+.tesla:hover{
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+  font-size: 1.2em;
+}
+
+/***********************************/
+
+.bmw{
+  color: #ffffff;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 150px 50px;
+  margin: 10px 20px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/BMW_X1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: relative;
+  font-size: 0em;
+}
+
+.bmw .titulo{
+  position: absolute;
+  top: 30px;
+  left: 300px;
+}
+
+.bmw .texto{
+  position: relative;
+  text-align: center;
+  left: 100px;
+}
+
+.bmw .texto li{
+  list-style-type: none;
+  padding: 10px;
+}
+
+.bmw:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  font-size: 1.2em;
+}
+
+
+/************************/
+
+.audi{
+  color: #ffffff;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 150px 50px;
+  margin: 10px 20px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/AudiR8.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: relative;
+  font-size: 0em;
+}
+
+.audi .titulo{
+  position: absolute;
+  top: 30px;
+  left: 300px;
+}
+
+.audi .texto{
+  position: relative;
+  text-align: center;
+  left: 100px;
+}
+
+.audi .texto li{
+  list-style-type: none;
+  padding: 10px;
+}
+
+.audi:hover{
+  border-style: solid;
+  border-color: #95A5A6;
+  border-color: #000;
+  font-size: 1.2em;
+}
+
+/****Ventajas*/
+
+.ventajas{
+  width: 100%;
+  padding: 100px 10px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.ventajas_text li{
+  margin: 10px;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  list-style-type: none;
+}
+.ventajas h2,.ventajas button{
+  margin-bottom: 20px;
+}
+button{
+  padding: 15px 40px 15px 40px;
+  background-color: black;
+  font-size: 1em;
+  color: white;
+   -webkit-transition: background 1s linear;
+  transition: background 0.5s linear;
+}
+button:hover{
+  background-color: #E2E2E2;
+  color: #000000;
+}
+
+/*FOOTER*/
+
+footer {
+  padding: 50px 50px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+footer p{
+  margin: 25px;
+}
+
+footer p a{
+  color: #000000;
+  text-decoration: none;
+}
+
+footer p [href$=".pdf"]::after{
+  content: url("../images/pdf.png");
+}
