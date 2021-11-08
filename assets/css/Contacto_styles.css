@@ -63,17 +63,31 @@ nav{
   }
 
 /*Formulario*/
-form label{
-    float: center;
+.contacto{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 20px 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}  
+
+.datos{
+  width: 40%;
+  float: right;
+  padding: 60px;
 }
 
+
 form{
+    margin-top: 15px;
+    width: 60%;
+    margin-left: 20px;
     padding: 60px;
-    max-width: 400px;
-    background-color: #000000;
-    margin: 0 auto;
-    border-radius: 20px;
-    color: #ffffff;
+    width: 30%;
+    background-color: #ffffff;
     text-align: center;
   }
   
@@ -82,23 +96,19 @@ form{
     width: 100%;
     padding: 10px;
     box-sizing: border-box; 
-    border: none; 
-    color: #525c66; 
     font-size: 1em;
     resize: none; 
+    border-radius: 15px;
+    border-color: #000000;
   }
   
   form button {
       display: block;
-      background-color: #ffffff;
       padding: 10px 45px 10px 45px;
       border: 0;
       font-size: 1em; 
-      color: 	white;
-  }
-  form button{
-      background-color: #ffffff;
-      color: #000000;
+      background-color: #000000;
+      color: #ffffff;
   }
   textarea {  resize: none;}  
 

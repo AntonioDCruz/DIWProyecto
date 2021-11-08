@@ -9,7 +9,7 @@
 body{
 background-color:#E2E2E2;
 }
-
+/*barra de navegación*/
 header{
   position: fixed;
   width: 100%;
@@ -65,7 +65,7 @@ aside {
   padding-right: 15px;
   margin-right: 25px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   float: right;
   font-style: Arial;
   background-color:#ffffff;
@@ -86,12 +86,103 @@ aside li a{
 
 /*Section*/
 
-section{
-  width: 1200px;
-  position: static;
+#Articulos{
+  margin-right: 380px;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px 20px;
 }
 
+.posts{
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding-right: 15px;
+  margin-right: 25px;
+  padding-top: 30px;
+  margin-top: -500px;
+  padding-bottom: 10px;
+  float: right;
+  font-style: Arial;
+  background-color:#ffffff;
+  border-radius: 5%;
+  border-color: #000000;
+  font-size: 0.8em;
+}
+
+
 /*Div*/
+
+.Act6{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Act6_1{
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+.Act6_2{
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+
+.act8{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Act8_1{
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+.Act8_2{
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+.Act8_3{
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+.Act8_4{
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+/*Actividad9*/
+.act9{
+  width: 200px;
+  height: 200px;
+  overflow: scroll;
+  display: inline-block;
+  background-color: #ffffff;
+  margin: 20px 20px;
+  padding: 20px 20px;
+} 
 
 
 
@@ -128,6 +219,8 @@ footer p a{
 footer p [href$=".pdf"]::after{
   content: url("../images/pdf.png");
 }
+
+
 
 
 .click:after {
