@@ -27,17 +27,15 @@
 
     <div class="contacto">
         <form>
-            <fieldset>
                 <legend>Datos personales</legend>
                 <input name='nombre' type='text' placeholder="Nombre" pattern="[a-zA-Z0-9]{1,30}" required autofocus/><br><br>
                 <input name='email' type='email' placeholder="Email" required/><br><br>
                 <input type='number' name='edad' min="18" max="99" placeholder="Edad" required/><br><br>
                 <input name='tel' type='text' pattern="[0-9]{9}" placeholder="Teléfono" required/><br><br>
-                <textarea name="textarea" rows="10" cols="50" required>Campo de consulta</textarea><br><br>
+                <textarea name="textarea" rows="10" cols="50" placeholder="Comentanos tus dudas" required></textarea><br><br>
                 <label>Aceptas la política de privacidad y cookies </label>
                 <input type='checkbox' name='políticas' value='Si' required/><br><br>
                 <button id="enviar" name="enviar" type="submit">ENVIAR</button>
-            </fieldset>
         </form>
 
       <div class="datos">

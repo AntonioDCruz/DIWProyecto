@@ -142,14 +142,37 @@ table {
     color: #ffffff;
 }
 
-table tr:nth-child(odd){ background-color: #000000; color: #ffffff;}
-table tr:nth-child(even){ background-color: #ffffff; color: #000000;}
+table caption{
+  padding: 20px;
+}
+
+table tr th{
+  padding: 20px;
+}
+
+table tr th a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+table tr td ul{
+  margin: 20px;
+}
+
+table tr td ul li{
+  margin: 10px;
+}
+
+table tr td h4{
+  text-align: center;
+  margin: 20px;
+}
+
+table tr:nth-child(odd){ background-color: #000000; color: #ffffff; margin: 200px;}
+table tr:nth-child(even){ background-color: #ffffff; color: #000000; margin: 200px;}
 table tr:first-child{background-color: gold;}
 
-table a{
-    color: #ffffff;
-    font-size: 2em;
-}
 
 h4{
     font-size: 1.5em;
