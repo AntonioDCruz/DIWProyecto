@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -20,7 +23,7 @@ nav{
     max-width: 1824px;
     margin: 0 auto;
     position: relative;
-  
+    font-family: "Vollkorn";
    }
   header img{
     padding: 18px 10px;
@@ -82,6 +85,7 @@ form{
     width: 30%;
     background-color: #ffffff;
     text-align: center;
+    font-family: "Crimson Pro";
   }
 
   form legend{
@@ -132,6 +136,7 @@ form{
   float: right;
   padding: 60px;
   text-align: center;
+  font-family: "Crimson Pro";
 }
 
 
@@ -202,6 +207,7 @@ footer {
   color: #000000;
   text-align: center;
   font-size: 1.3em;
+  font-family: "Vollkorn";
 }
 
 footer p{
@@ -215,5 +221,279 @@ footer p a{
 
 footer p [href$=".pdf"]::after{
   content: url("../images/pdf.png");
+}
+
+/********************/
+
+.click:after {
+  content:"En pantalla grande";
+}
+@media screen and (max-width: 1224px) {
+  .click:after {
+      content:"Ordenador";
+  }
+
+  
+  nav{
+     display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px;
+  }
+
+  header img{
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+  form{
+    margin: 20px;
+  }
+
+  form legend{
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+  }
+
+  form label{
+   display: inline-block;  
+   padding: 30px;
+}
+  
+  form button {
+    padding: 10px 45px 10px 45px;
+  }
+
+  .datos{
+    margin: 20px;
+  }
+
+  .datos h2 {
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    font-size: 2em;
+  }
+  
+  .datos h4{
+      padding: 10px;
+      margin: 30px 80px;
+  }
+  
+  .datos a{
+    margin: 10px;
+    padding: 10px 10px;
+    margin-top: 40px;
+  }
+  
+  .datos p{
+    padding: 10px 10px;
+    margin-top: -15px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 15px;
+  }
+
+  .icono{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+  }
+
+}
+
+@media screen and (max-width : 768px)  {
+  .click:after {
+    content:"Tablet"; 
+  }
+
+  nav{
+     display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px;
+  }
+
+  nav ul{
+    margin-left: 0px;
+  }
+
+  header img{
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+  header img{
+    display: inline-block;
+  }
+
+  form{
+    margin: 20px;
+  }
+
+  form legend{
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+  }
+
+  form label{
+   display: inline-block;  
+   padding: 30px;
+}
+  
+  form button {
+    margin-left: 70px;
+    padding: 10px 45px 10px 45px;
+  }
+
+  .datos{
+    margin: 20px;
+  }
+
+  .datos h2 {
+    padding: 20px;
+    margin-top: -40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    font-size: 2em;
+  }
+  
+  .datos h4{
+      padding: 10px;
+      margin: 30px 130px;
+  }
+  
+  .datos a{
+    margin: 10px;
+    padding: 10px 10px;
+    margin-top: 40px;
+  }
+  
+  .datos p{
+    padding: 10px 10px;
+    margin-top: -15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+  }
+
+
+  footer{
+    width: 100%;
+    display: block;
+  }
+
+  footer p{
+    margin: 25px;
+    margin-right: 100px;
+  }
+  footer .iconos{
+    margin-right: 90px;
+  }
+
+}
+
+
+@media screen and (max-width: 580px) {
+  .click:after {
+      content:"Movil";
+  }
+  nav{
+    margin-left: 5px;
+     display: inline-block; width:100%; background-color: #000; color:#FFF; font-size: 16px;
+  }
+
+  nav ul{
+    margin-left: 0px;
+  }
+
+  header img{
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+
+  .contacto{
+    flex-wrap: wrap;
+  }
+
+  form{
+    margin: 20px;
+  }
+
+  form legend{
+    margin-bottom: 20px;
+    margin-left: -40px;
+    margin-right: -40px;
+    padding: 20px;
+  }
+  
+  form input, form textarea{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  form label{
+   display: inline-block;  
+   padding: 30px;
+}
+  
+  form button {
+    margin-left: 0px;
+      padding: 10px 45px 10px 45px;
+  }
+
+  .datos{
+    margin: 20px;
+  }
+
+  .datos h2 {
+    padding: 11px;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    font-size: 2em;
+  }
+  
+  .datos h4{
+      padding: 10px;
+      margin: 30px 0px;
+  }
+  
+  .datos a{
+    margin: 10px;
+    padding: 10px 10px;
+    margin-top: 40px;
+  }
+  
+  .datos p{
+    padding: 10px 10px;
+    margin-top: -15px;
+    margin-left: 0;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  
+  .datos iframe{
+    display: block;
+    margin-right: 100px;
+  }
+  footer{
+    display: block;
+    width: 100%;
+  }
+  footer p{
+    margin: 25px;
+    margin-right: 100px;
+  }
+  footer .iconos{
+    margin-right: 90px;
+  }
+
+
 }
   

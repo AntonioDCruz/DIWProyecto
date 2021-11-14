@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
 
 *{
   margin: 0px;
   padding: 0px;
-  font-family: "Vollkorn", "Crimson Pro", "Frank Ruhl Libre";
 }
 
 body{
@@ -23,7 +25,7 @@ nav{
   max-width: 1824px;
   margin: 0 auto;
   position: relative;
-
+  font-family: "Vollkorn";
  }
 header img{
   padding: 18px 10px;
@@ -71,6 +73,7 @@ aside {
   background-color:#ffffff;
   border-radius: 5%;
   border-color: #000000;
+  font-family: "Crimson Pro";
 }
 
 aside ul{
@@ -87,13 +90,14 @@ aside li a{
 /*Section*/
 
 #Articulos{
-  margin-right: 380px;
+  margin-right: 450px;
   margin-left: 20px;
   margin-top: 40px;
   margin-bottom: 20px;
   background-color: #ffffff;
   border-radius: 15px;
   padding: 20px 20px;
+  font-family: "Crimson Pro";
 }
 
 .posts{
@@ -103,7 +107,7 @@ aside li a{
   padding-right: 15px;
   margin-right: 25px;
   padding-top: 30px;
-  margin-top: -500px;
+  margin-top: -530px;
   padding-bottom: 10px;
   float: right;
   font-style: Arial;
@@ -111,6 +115,12 @@ aside li a{
   border-radius: 5%;
   border-color: #000000;
   font-size: 0.8em;
+  text-align: center;
+}
+
+.posts img, #Articulos img{
+  margin: 15px;
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
 }
 
 
@@ -121,56 +131,100 @@ aside li a{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  font-family: "Crimson Pro";
 }
 
 .Act6_1{
+  width: 30%;
   background-color: #ffffff;
   border-radius: 15px;
   margin: 20px 20px;
   padding: 20px 20px;
+  text-align: center;
 }
 
 .Act6_2{
+  width: 50%;
   background-color: #ffffff;
   border-radius: 15px;
   margin: 20px 20px;
   padding: 20px 20px;
+  text-align: center;
+}
+
+.Act6_1 iframe, .Act6_2 iframe{
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  padding: 20px;
+
 }
 
 
 .act8{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  margin: 20px 20px;
+  border-radius: 15px;
+  border-color: #000000;
+  border:#000000 10px solid;
+  background-color: #ffffff;
+  font-family: "Crimson Pro";
 }
 
 .Act8_1{
+  width: 20%;
+  height: 400px;
   background-color: #ffffff;
   border-radius: 15px;
   margin: 20px 20px;
-  padding: 20px 20px;
+  padding: 20px 20px;  overflow-x: hidden;
 }
 
+.Act8_1::-webkit-scrollbar {
+  display: none;
+}
+
+
+
 .Act8_2{
+  width: 20%;
+  height: 400px;
   background-color: #ffffff;
   border-radius: 15px;
   margin: 20px 20px;
-  padding: 20px 20px;
+  padding: 20px 20px;  overflow-x: hidden;
+}
+
+.Act8_2::-webkit-scrollbar {
+  display: none;
 }
 
 .Act8_3{
+  width: 20%;
   background-color: #ffffff;
   border-radius: 15px;
   margin: 20px 20px;
-  padding: 20px 20px;
+  padding: 20px 20px; overflow-x: hidden;
+  height: 400px;
+}
+
+.Act8_3::-webkit-scrollbar {
+  display: none;
 }
 
 .Act8_4{
+  width: 20%;
   background-color: #ffffff;
   border-radius: 15px;
   margin: 20px 20px;
-  padding: 20px 20px;
+  padding: 20px 20px;  overflow-x: hidden;
+  height: 400px;
+}
+
+.Act8_4::-webkit-scrollbar {
+  display: none;
 }
 
 /*Actividad9*/
@@ -205,6 +259,7 @@ footer {
   color: #000000;
   text-align: center;
   font-size: 1.3em;
+  font-family: "Vollkorn";
 }
 
 footer p{
@@ -223,9 +278,8 @@ footer p [href$=".pdf"]::after{
 
 
 
-.click:after {
-  content:"En pantalla grande";
-}
+/*No funciona*/
+
 /*@media screen and (min-width: 1024px) {
   .click:after {
       content:"Ordenador";
@@ -280,7 +334,7 @@ aside li a{
   
 
  
-}*/
+}
 
 @media screen and (min-device-width : 768px) and (max-width: 1024px) {
   .click:after {
@@ -309,7 +363,7 @@ aside li a{
     display: inline-block;
   }
 
-  /*Aside*/
+  /*Aside
 
 aside {
   width: 20%;
@@ -338,7 +392,7 @@ aside li a{
 }
 
 
-/**/
+
   section{
     width: 700px;
     position: static;
@@ -458,29 +512,10 @@ aside li a{
     display: block;
   }
 
-  .Act8_1{
-    width: 400px;
-    position: static;
-    display: block;
+  .act8{
+    flex-wrap: wrap;
   }
-
-  .Act8_2{
-    width: 400px;
-    position: static;
-    display: block;
-  }
-
-  .Act8_3{
-    width: 400px;
-    position: static;
-    display: block;
-  }
-
-  .Act8_4{
-    width: 400px;
-    position: static;
-    display: block;
-  }
+  
   footer{
     width: 400px;
     position: static;
@@ -488,4 +523,4 @@ aside li a{
 
 
 
-}
+}*/
