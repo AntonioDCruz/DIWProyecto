@@ -275,8 +275,217 @@ footer p [href$=".pdf"]::after{
   content: url("../images/pdf.png");
 }
 
+.Act_T6_6{
+  margin: 10px;
+}
+
+.Act_T6_5-1{
+  background-color: #ffffff;
+  margin: 10px 450px;
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+
+.Act_T6_5-1 h2{
+  text-align: center;
+  font-family: "Crimson Pro";
+}
+
+.Act_T6_5-1 div{
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Act_T6_5-1 nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Crimson Pro";
+
+}
+
+.Act_T6_5-1 nav input{
+  margin: 5px 5px;
+  padding: 15px 40px;
+  border-radius: 15px;
+  background-color: #000000;
+  font-size: 1em;
+  color: #ffffff;
+  -webkit-transition: background 1s linear;
+  transition: background 0.5s linear;
+}
+
+.Act_T6_5-1 nav input:hover{
+  background-color: #E2E2E2;
+  color: #000000;
+}
 
 
+
+
+.Act_T6_5-2{
+  background-color: #ffffff;
+  margin: 10px 450px;
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+
+.Act_T6_5-2 h2{
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Crimson Pro";
+}
+
+.Act_T6_5-2 div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Act_T6_5-2 button {
+  margin: 5px 5px;
+  padding: 15px 40px;
+  border-radius: 15px;
+  background-color: #000000;
+  font-size: 1em;
+  color: #ffffff;
+  -webkit-transition: background 1s linear;
+  transition: background 0.5s linear;
+}
+
+.Act_T6_5-2 button:hover{
+  background-color: #E2E2E2;
+  color: #000000;
+}
+
+.Act_T6_6{
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#visor { 
+  width: 600px; 
+  height: 440px;
+  background-color: silver;
+  overflow: hidden; 
+  position: relative; 
+}
+
+#fondoCoche { 
+  position: relative; 
+  width: 1200px; 
+  height: 400px; 
+}
+
+#coche{ position: absolute;
+   top: 250px; 
+   left: 140px; 
+   width: 200px;  
+}
+
+@keyframes micoche { 
+  from { left: -300px; }
+  to { left: -600px; }   
+}
+@-webkit-keyframes micoche { 
+  from { left: -300px; }
+  to { left: -600px; }   
+}
+
+#fondoCoche {
+  animation-name: micoche;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+  -webkit-animation-name: micoche;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;	
+  }
+
+  .contenedor {
+    background: #f0f0f0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;;
+  }
+
+  .box p{
+    margin: 10px 10px;
+  }
+  .box {
+    margin: 15px 0px;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    background: #f0f0f0;
+    box-shadow:  0 0 0 #cccccc,
+                 0 0 0 #ffffff,
+                  10px 10px 10px #cccccc inset,
+                  -10px -10px 10px #ffffff inset;
+    animation: anime 3s cubic-bezier(0.16, 1, 0.3, 1) 1s infinite alternate;
+    /* animation-fill-mode: forwards; */
+    font-size: 0em;
+    text-align: center;
+  }
+
+  @keyframes anime {
+    0% {
+      font-size: 0em;
+      width: 60px;
+      height: 60px;
+      background: #f0f0f0;
+      box-shadow:  0 0 0 #cccccc,
+                   0 0 0 #ffffff,
+                    10px 10px 10px #cccccc inset,
+                    -10px -10px 10px #ffffff inset;
+    }
+    25% {
+      font-size: 0em;
+      width: 60px;
+      height: 60px;
+      background: #f8f8f8;
+      box-shadow:  10px 10px 10px #cccccc,
+                   10px 10px 10px #ffffff,
+                   0 0 0 #cccccc inset,
+                   0 0 0 #ffffff inset;
+    }
+    50% {
+      font-size: 0.4em;
+      width: 60px;
+      height: 240px;
+      background: #f8f8f8;
+      box-shadow:  10px 10px 10px #cccccc,
+                   10px 10px 10px #ffffff,
+                   0 0 0 #cccccc inset,
+                   0 0 0 #ffffff inset;
+    }
+    100% {
+      font-size: 1.2em;
+      width: 480px;
+      height: 240px;
+      background: #fafafa;
+      box-shadow:  40px 40px 40px #cccccc,
+                   0 0 0 #ffffff,
+                   0 0 0 #cccccc inset,
+                   2px 2px 2px #ffffff inset;
+    }
+  }
 
 /*No funciona*/
 
