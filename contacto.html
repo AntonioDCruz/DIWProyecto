@@ -28,13 +28,13 @@
     <div class="contacto">
         <form>
                 <legend>Datos personales</legend>
-                <input name='nombre' type='text' placeholder="Nombre" pattern="[a-zA-Z0-9]{1,30}" required autofocus/><br><br>
-                <input name='email' type='email' placeholder="Email" required/><br><br>
-                <input type='number' name='edad' min="18" max="99" placeholder="Edad" required/><br><br>
-                <input name='tel' type='text' pattern="[0-9]{9}" placeholder="Teléfono" required/><br><br>
+                <input title="Nombre" name="nombre" type="text" placeholder="Nombre" pattern="[a-zA-Z0-9]{1,30}" required autofocus/><br><br>
+                <input title="Email" name="email" type="email" placeholder="Email" required/><br><br>
+                <input title="Edad" type="number" name="edad" min="18" max="99" placeholder="Edad" required/><br><br>
+                <input title="Teléfono" name="tel" type="text" pattern="[0-9]{9}" placeholder="Teléfono" required/><br><br>
                 <textarea name="textarea" rows="10" cols="50" placeholder="Comentanos tus dudas" required></textarea><br><br>
                 <label>Aceptas la política de privacidad y cookies </label>
-                <input type='checkbox' name='políticas' value='Si' required/><br><br>
+                <input title="Políticas de privacidad" type="checkbox" name="políticas" value="Si" required/><br><br>
                 <button id="enviar" name="enviar" type="submit">ENVIAR</button>
         </form>
 
@@ -49,18 +49,20 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.6738851653445!2d-3.7091705517353937!3d40.416301809396444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287ed77a7e65%3A0x49a63c540111181c!2sPlaza%20Mayor!5e0!3m2!1ses!2ses!4v1633891487943!5m2!1ses!2ses" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
-    <div class="icono">
-      <a href="https://www.whatsapp.com/?lang=es" ><img src="./assets/images/whatsapp.png" width="30" alt="Logo Whatsapp"></a>
-      </div>
+      <div class="icono">
+      <a href="https://www.whatsapp.com/?lang=es" ><img src="./assets/images/whatsapp.png" width="30" alt="Whatsapp"></a>
+    </div>
 
     <footer>
-        <p> © ZetecCars2021</p>
-        <p><a href="https://www.aepd.es/sites/default/files/2020-07/guia-cookies.pdf">Política de privacidad y cookies</a></p>
-        <p>Antonio David Cruz Alarcón</p>
-        <a href="https://twitter.com/"><img src="./assets/images/logotipo-de-twitter-sobre-fondo-negro.png" width="30" alt="Logo Twitter"></a>
-        <a href="https://www.instagram.com/?hl=es"><img src="./assets/images/logotipo-de-instagram.png" width="30" alt="Logo Instagram"></a>
-        <a href="https://www.google.com/intl/es/gmail/about/"><img src="./assets/images/logotipo-de-gmail.png" width="30" alt="Logo Gmail"></a>
-        <a href="https://es-es.facebook.com/"><img src="./assets/images/logo-de-facebook.png" width="30" alt="Logo Facebook"></a>
-      </footer>
+      <p> © ZetecCars2021</p>
+      <p><a href="https://www.aepd.es/sites/default/files/2020-07/guia-cookies.pdf">Política de privacidad y cookies</a></p>
+      <p>Antonio David Cruz Alarcón</p>
+      <div class="iconos">
+        <a href="https://twitter.com/"><img src="./assets/images/logotipo-de-twitter-sobre-fondo-negro.png" width="30" alt="Twitter"></a>
+        <a href="https://www.instagram.com/?hl=es"><img src="./assets/images/logotipo-de-instagram.png" width="30" alt="Instagram"></a>
+        <a href="https://www.google.com/intl/es/gmail/about/"><img src="./assets/images/logotipo-de-gmail.png" width="30" alt="Gmail"></a>
+        <a href="https://es-es.facebook.com/"><img src="./assets/images/logo-de-facebook.png" width="30" alt="Facebook"></a>
+      </div>  
+    </footer>
 </body>
 </html>
