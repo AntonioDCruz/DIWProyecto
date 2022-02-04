@@ -96,7 +96,7 @@ nav{
 
   #deportivos #deportivosText{
     margin: 0px 25px;
-    color: pink;
+    color: #B70893;
   }
 
 
@@ -113,7 +113,7 @@ nav{
 
   #electricos #electricosText{
     margin: 0px 25px;
-    color: pink;
+    color: #B70893;
   }
 
 
@@ -130,8 +130,8 @@ nav{
 
   #familiares #familiaresText{
     margin: 0px 25px;
-    color: pink;
-  }
+    color: #B70893;
+    }
 
 
   /*Tabla*/
