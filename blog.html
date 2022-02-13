@@ -9,8 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="./assets/css/Blog_styles.css"> 
     <link rel="stylesheet" type="text/css" media="print" href="./assets/css/imprimir.css" />
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
   <header>
@@ -32,22 +31,23 @@
  
   <!--Main-->
     <main>
-
-        <aside>
-            <ul class="Act8">
-              <li><a href="#Act8_1">Actividad 8_1</a></li>  
-              <li><a href="#Act8_2">Actividad 8_2</a> </li>
-              <li><a href="#Act8_3">Actividad 8_3</a> </li>
-              <li><a href="#Act8_4">Actividad 8_4</a> </li>
-              <li><a href="#articulos">Artículos</a> </li>
-              <li><a href="#Act6">Actividad 6</a> </li>
-            </ul>
-        </aside>
-
-        <!--Sección con dos articulos-->
-        <a name="articulos"></a>
-        <section id="Articulos">
-          <article id="Mercedes">
+      
+      <aside>
+        <ul class="Act8">
+          <li><a id="link1" href="#Act8_1">Actividad 8</a></li>  
+          <li><a id="link2" href="#articulos">Artículos</a> </li>
+          <li><a id="link3" href="#Act6">Actividad 6</a> </li>
+          <li><a id="link4" href="#video">Video y Audio</a> </li>
+          <li><a id="link5" href="#controlVideo">Control de Video</a> </li>
+          <li><a id="link6" href="#animaciones">Animaciones</a> </li>
+          <li><a id="link7" href="#audios">Audios</a> </li>
+        </ul>
+      </aside>
+      
+      <!--Sección con dos articulos-->
+      <a class="articulos" name="articulos"></a>
+      <section id="Articulos">
+        <article id="Mercedes">
               <figure>
                   <h3>Articulo 1</h3>
                   <img src="./assets/images/EQS.png" width="350" alt="Mercedes EQS">
@@ -93,7 +93,7 @@
       </section>
 
 
-        <a name="Act6"></a>
+        <a id="Act6" name="Act6"></a>
         <section class="Act6">
           <div class="Act6_1">
             <h3>Lorem ipsum ACT_6_1</h3>
@@ -110,7 +110,7 @@
         <!--Actividad 8-->
 
         <a name="act8"></a>
-        <div class = act8>
+        <div class = "act8">
           <div class="Act8_1">
             <h3>Lorem ipsum ACT_8_1</h3>
             <p>Fusce varius vehicula accumsan. Curabitur congue elit non nisi vehicula, in eleifend mauris fermentum. Suspendisse venenatis vitae enim nec suscipit. Nam sit amet magna cursus elit interdum blandit eget sit amet dolor. Ut a enim at nisl facilisis cursus. Proin finibus eros dolor, eget ullamcorper velit fringilla id. Donec egestas tristique fermentum.
@@ -179,6 +179,7 @@
 
     <!--****************************************** ACTIVIDADES TEMA 6 ********************************************************-->
 
+    <a class="video" name="video"></a>
     <section class="Act_T6_2">
       <video title="Video actividad tema 6" id="reproductor" width="1200" height="800" preload="none" controls autoplay loop>
         <source src="./assets/video/Inside of a car driving in India4.mp4" type="video/mp4">
@@ -220,6 +221,7 @@
 
     </section>
 
+    <a class="controlVideo" name="controlVideo"></a>
     <section class="Act_T6_5-1">
       <h2>Control de video</h2>
       <div>
@@ -243,6 +245,7 @@
     </section>
     <script src="./assets/js/reproductor.js"></script>
 
+    <a class="audios" name="audios"></a>
     <section class="Act_T6_5-2">
       <h2>Control de Audio</h2>
       <div>
@@ -254,6 +257,7 @@
     </section>
     <script src="./assets/js/audio.js"></script>
 
+    <a class="animaciones" name="animaciones"></a>
     <section class="Act_T6_6">
         <div id="visor">
           <img id="fondoCoche" src="./assets/images/fondo_animacion2.jpg" alt="fondoCoche">
@@ -272,6 +276,13 @@
     <div class="icono">
       <a href="https://www.whatsapp.com/?lang=es" ><img src="./assets/images/whatsapp.png" width="30" alt="Whatsapp"></a>
     </div>
+
+    <a id="toTop" href="#"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="./assets/js/aside.js"></script>
+    <script src="./assets/js/flechaTop.js"></script>
+    <script src="https://kit.fontawesome.com/509deda241.js" crossorigin="anonymous"></script>
+
 
     <footer>
       <p> © ZetecCars2021</p>

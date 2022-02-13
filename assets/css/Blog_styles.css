@@ -8,6 +8,15 @@
   padding: 0px;
 }
 
+#toTop {
+	display: block;
+	position: fixed;
+	top: 85%;
+  right: 10px;
+	padding: 4px 4px 4px 4px;
+  font-size: 3em; color: #000000;
+}
+
 body{
 background-color:#E2E2E2;
 }
